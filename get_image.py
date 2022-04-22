@@ -13,7 +13,7 @@ def get_image():
     Function to get image from webcam and create
     DATASET images for all signs.
     """
-    Class = '2' # Change this to respective sign
+    Class = '3' # Change this to respective sign
 
     # Define dataset path and create directory
     Path('DATASET/'+Class).mkdir(parents=True, exist_ok=True)
